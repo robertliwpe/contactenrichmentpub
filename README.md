@@ -12,6 +12,15 @@ from an input CSV file.
 
 ***First Name, Last Name and Company columns MUST be created and filled.***
 
+A sample CSV file has been uploaded to give an idea of structure (the last line of the file MUST be included):
+
+```
+"fname,lname,company"
+"Mark,zuckerberg,facebook"
+"Jeff,bezos,amazon"
+"TAIL,DONOT,REMOVE"
+```
+
 Simply download this script, run `chmod +x enrichmentprocesspublic.sh` on it and execute by
 invoking it.
 
