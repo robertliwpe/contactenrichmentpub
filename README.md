@@ -24,5 +24,5 @@ A sample CSV file has been uploaded to give an idea of structure (the last line 
 Simply download this script, run `chmod +x enrichmentprocessv2pub.sh` on it and execute by
 invoking it.
 
-Download by right-click and saving as: 
-https://raw.githubusercontent.com/robertliwpe/wpecontactenrichmentpub/main/enrichmentprocessv2pub.sh
+Clone as: 
+`git clone https://github.com/robertliwpe/wpecontactenrichmentpub.git`
