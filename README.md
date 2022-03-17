@@ -10,19 +10,19 @@ from an input CSV file.
 
 ***You will require a Lusha API key, contact your admin if you do not see it in your dashboard***
 
-***First Name, Last Name and Company columns MUST be created and filled.***
+***First Name, Last Name and Company URL/Domain columns MUST be created and filled.***
 
 A sample CSV file has been uploaded to give an idea of structure (the last line of the file MUST be included):
 
 ```
-"fname,lname,company"
-"Mark,zuckerberg,facebook"
-"Jeff,bezos,amazon"
-"TAIL,DONOT,REMOVE"
+"First Name,Last Name,Domain"
+"Karen,Peacock,intercom.com"
+"Yoni,Tserruya,lusha.com"
+"BLANK FINAL LINE REQUIRED"
 ```
 
 Simply download this script, run `chmod +x enrichmentprocesspublic.sh` on it and execute by
 invoking it.
 
 Download by right-click and saving as: 
-https://raw.githubusercontent.com/robertliwpe/wpecontactenrichmentpub/main/enrichmentprocesspublic.sh
+https://raw.githubusercontent.com/robertliwpe/wpecontactenrichmentpub/main/enrichmentprocesspublicv2.sh
