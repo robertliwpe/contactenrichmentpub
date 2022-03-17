@@ -21,8 +21,8 @@ A sample CSV file has been uploaded to give an idea of structure (the last line 
 "BLANK FINAL LINE REQUIRED"
 ```
 
-Simply download this script, run `chmod +x enrichmentprocesspublic.sh` on it and execute by
+Simply download this script, run `chmod +x enrichmentprocessv2pub.sh` on it and execute by
 invoking it.
 
 Download by right-click and saving as: 
-https://raw.githubusercontent.com/robertliwpe/wpecontactenrichmentpub/main/enrichmentprocesspublicv2.sh
+https://raw.githubusercontent.com/robertliwpe/wpecontactenrichmentpub/main/enrichmentprocessv2pub.sh
