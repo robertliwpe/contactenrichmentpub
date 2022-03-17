@@ -9,7 +9,7 @@ printf "If you do not already have it installed copy and run the above command.\
 printf "This script will use the Lusha Contacts API to pull contacts to be enriched \r\nfrom an input CSV file.\r\n\r\n" 
 printf '\e[1;31m%-6s\e[m' "You will REQUIRE a Lusha API Key. "
 printf '\e[1;31m%-6s\e[m' "First Name, Last Name and Company Domain MUST be created & filled."
-printf "\r\n\r\nFind the github repo here: https://github.com/robertliwpe/wpecontactenrich.git"
+printf "\r\n\r\nFind the github repo here: https://github.com/robertliwpe/wpecontactenrichmentpub.git"
 
 printf "\r\n"
 
