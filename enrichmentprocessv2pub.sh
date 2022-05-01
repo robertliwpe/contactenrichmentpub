@@ -9,7 +9,7 @@ printf "If you do not already have it installed copy and run the above command.\
 printf "This script will use the Lusha Contacts API to pull contacts to be enriched \r\nfrom an input CSV file.\r\n\r\n" 
 printf '\e[1;31m%-6s\e[m' "You will REQUIRE a Lusha API Key. "
 printf '\e[1;31m%-6s\e[m' "First Name, Last Name and Company Domain MUST be created & filled."
-printf "\r\n\r\nFind the github repo here: https://github.com/robertliwpe/wpecontactenrichmentpub.git"
+printf "\r\n\r\nFind the github repo here: https://github.com/robertliwpe/wpecontactenrich.git"
 
 printf "\r\n"
 
@@ -20,7 +20,18 @@ read api
 
 printf "\r\nProvide the full path to the input file:\r\n"
 read input
-inputfile=$(printf "/Users/$USER" && printf "$input" | tr -d "~")
+
+tilda="~"
+
+if [[ $input == *"$tilda"* ]]
+    then
+        echo "Replacing $tilda with /Users/$USER..."
+        inputfile=$(printf "/Users/$USER" && printf "$input" | tr -d "~")
+        echo "Confirm Input file is $inputfile..."
+    else
+        inputfile=$input
+        echo "Confirm Input file is $inputfile..."
+fi;
 
 printf "\r\nName the output file (this will always be saved to your desktop in CSV format):\r\n"
 read -r output
