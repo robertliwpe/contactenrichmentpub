@@ -21,7 +21,7 @@ A sample CSV file has been uploaded to give an idea of structure (the last line 
 "BLANK FINAL LINE REQUIRED"
 ```
 
-Simply download this script, run `chmod +x enrichmentprocessv2pub.sh` on it and execute by
+Simply download this script, run `chmod +x enrichmentprocessv3pub.sh` on it and execute by
 invoking it.
 
 Clone as: 
