@@ -64,9 +64,13 @@ do
     # curl "$url" -H "api_key:$api" | jq -r '.[]' | json2csv | tail -n +2 >> ~/desktop/"$output".csv
     curl "$url" -H "api_key:$api" > ~/desktop/"$output".json
     dasel -f ~/desktop/"$output".json 'data' | dasel -r json -w csv | grep "map" >> ~/desktop/"$output".csv
-    rm ~/desktop/"$output".json
 done < <(tail -n +2 "$inputfile")
 
 printf "\r\n=====================================================================================\r\n"
+printf "\r\nCleaning up...\r\n"
+
+rm ~/desktop/"$output".json
+
+sleep 2;
 
 printf "\r\nTASK COMPLETE!\r\n\r\n"
