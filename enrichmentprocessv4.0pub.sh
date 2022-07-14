@@ -69,8 +69,8 @@ done < <(tail -n +2 "$inputfile")
 printf "\r\n=====================================================================================\r\n"
 printf "\r\nCleaning up...\r\n"
 
-rm ~/desktop/"$output".json
+rm -iv ~/desktop/"$output".json
 
-sleep 2;
+sleep 2
 
 printf "\r\nTASK COMPLETE!\r\n\r\n"
