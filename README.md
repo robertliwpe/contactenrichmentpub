@@ -27,4 +27,4 @@ Simply download this script, run `chmod +x enrichmentprocessv3.sh` on it and exe
 invoking it.
 
 Clone as: 
-`git clone https://github.com/robertliwpe/wpecontactenrich.git`
+`git clone https://github.com/robertliwpe/contactenrichmentpub.git`
